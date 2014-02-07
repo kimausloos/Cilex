@@ -11,4 +11,3 @@ Vagrant::Config.run do |config|
      puppet.options        = [ '--verbose' ]
   end
 end
-
