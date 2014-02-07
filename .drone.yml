@@ -1,0 +1,11 @@
+image: bradrydzewski/php:5.4 
+env:
+  - GOPATH=/var/cache/drone
+script:
+  - echo "HELLO"
+service:
+  - mysql
+notify:
+  email:
+    recipients:
+      - kim@thanatos.be
