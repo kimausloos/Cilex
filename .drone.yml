@@ -1,4 +1,4 @@
-image: bradrydzewski/php:5.4 
+image: kimtmp/php:5.5
 env:
   - GOPATH=/var/cache/drone
 script:
